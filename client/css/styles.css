@@ -1,0 +1,15 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-primary-color {
+    background-color: #F80;
+}
+
+.bg-secondary-color {
+    background-color: #ece8ea;
+}
+
+.bg-dark-color {
+    background-color: #050505;
+}
