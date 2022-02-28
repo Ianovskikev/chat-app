@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,8 +16,103 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- Css do projeto -->
     <link rel="stylesheet" href="./css/styles.css">
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
+        <div class="container py-3">
+          <a class="navbar-brand dark-color" href="#">
+            <img src="./img/android-chrome-192x192.png" alt="OnChat" class="d-inline-block align-text-top">
+            <span>Chat</span>
+          </a>
+          <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-items">
+            
+        </div>
+    </nav>
+    <div class="row">
+      <div class="d-flex flex-column align-items-stretch flex-shrink-0 bg-white col-lg-4" id="contacts">
+          <form class="d-flex" id="search-user">
+              <input class="form-control" type="search" placeholder="Procurar contatos" aria-label="Search">
+              <button class="btn" type="submit">Search</button>
+          </form>
+          <div class="list-group list-group-flush border-bottom scrollarea">
+            <a href="#" class="list-group-item list-group-item-action active py-3 lh-tight" aria-current="true">
+              Contato 1
+      
+            </a>
+            <a href="#" class="contact list-group-item list-group-item-action py-3 lh-tight">
+              Contato 2
+      
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+              Contato 3
+      
+            </a>
+      
+            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
+              Contato 4
+      
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+              Contato 5
+      
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+              Contato 6
+      
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
+              Contato 7
+      
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+              Contato 8
+      
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight">
+              Contato 9
+      
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
+              Contato 10
+      
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
+              Contato 10
+      
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-3 lh-tight" aria-current="true">
+              Contato 10
+      
+            </a>
+          </div>
+        </div>
+        <div class="col-lg col" id="talk">
+          <div class="container scrollarea-messages" id="display-messages">
+            <div class="message-sender">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum ea ex natus rerum voluptatum iste nam minus quis, quisquam adipisci voluptatem non omnis reprehenderit quo pariatur odit expedita inventore. Recusandae et minus, inventore deserunt facere explicabo in voluptatem quod harum quos labore dolore. Eum ratione fugiat odio vero rerum?</div>
+            <div class="space"></div>
+            <div class="message-recipient">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa mollitia repellendus quae ea dolores, reiciendis explicabo, non eaque facere assumenda delectus obcaecati veniam excepturi ullam iure necessitatibus eum dicta voluptate officia quam quaerat provident maxime? Recusandae accusantium corporis ad consequuntur dolores numquam nisi eligendi distinctio facilis, cum omnis nam a.</div>
+            <div class="space"></div>
+            <div class="message-sender">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum ea ex natus rerum voluptatum iste nam minus quis, quisquam adipisci voluptatem non omnis reprehenderit quo pariatur odit expedita inventore. Recusandae et minus, inventore deserunt facere explicabo in voluptatem quod harum quos labore dolore. Eum ratione fugiat odio vero rerum?</div>
+            <div class="space"></div>
+            <div class="message-recipient">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa mollitia repellendus quae ea dolores, reiciendis explicabo, non eaque facere assumenda delectus obcaecati veniam excepturi ullam iure necessitatibus eum dicta voluptate officia quam quaerat provident maxime? Recusandae accusantium corporis ad consequuntur dolores numquam nisi eligendi distinctio facilis, cum omnis nam a.</div>
+            <div class="space"></div>
+            <div class="message-sender">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta illum ea ex natus rerum voluptatum iste nam minus quis, quisquam adipisci voluptatem non omnis reprehenderit quo pariatur odit expedita inventore. Recusandae et minus, inventore deserunt facere explicabo in voluptatem quod harum quos labore dolore. Eum ratione fugiat odio vero rerum?</div>
+            <div class="space"></div>
+            <div class="message-recipient">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa mollitia repellendus quae ea dolores, reiciendis explicabo, non eaque facere assumenda delectus obcaecati veniam excepturi ullam iure necessitatibus eum dicta voluptate officia quam quaerat provident maxime? Recusandae accusantium corporis ad consequuntur dolores numquam nisi eligendi distinctio facilis, cum omnis nam a.</div>
+            <div class="space"></div>
+          </div>
+          <form class="d-flex">
+            <input class="form-control" type="text" placeholder="Escrever mensagem">
+            <button type="button" class="btn bg-primary-color ">Enviar</button>
+        </form>
+        </div>
+      </div>
+    <script src="./scripts.js"></script>
 </body>
 </html>
